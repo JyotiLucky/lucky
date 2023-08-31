@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky's-Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body p{
+    font-size: 1.189rem;
+}
+ a{
+    text-decoration: none;
+}
+h1{
+    font-size: 42px;
+}
+ul li{
+    list-style: none;
+}
+:root {
+    --primary-color: rgb(234, 111, 102);
+    --secondary-color: rgb(41, 47, 69);
+  }
+ .navbar{
+    background-color: var(--secondary-color);
+ }
+ .navbar .navbar-brand{
+    /* color: var(--primary-color) !important; */
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem !important;
+
+ }
+ .navbar .navbar-nav li a{
+    color: #cbc0c0;
+    margin-right: 23px;
+    font-size: 1.2rem;
+ }
+ .navbar .navbar-brand .logo-red{
+    color: var(--primary-color);
+ }
+ .navbar .navbar-nav li a:hover{
+    color:var(--primary-color);
+ }
+ .bi-person-circle{
+    font-size: 22px;
+ }
+ .nav-social a i{
+    font-size: 18px;
+ }
+ .log-red{
+    color: var(--primary-color) !important;
+ }
+
+ /* end navbar  */
+
+
+
+ /* start hero  */
+
+
+.hero{
+
+    background-image: url(../image/hero.webp);
+    height:87vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.hero .hero-content{
+   position: absolute;
+   top: 47%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: #fff;
+}
+.hero .hero-content h1{
+    font-size: 4rem;
+}
+.hero .hero-content p{
+    font-size: 1.4rem;
+}
+.main-btn{
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    color: #000;
+    background-color: var(--primary-color);
+    transition: .5  s ease;
+}
+.main-btn:hover{
+    background-color: #fff;
+}
+.main-btn.ab{
+    color: #000;
+    background-color: var(--primary-color);
+}
+.j-profile{
+    position: relative;
+    top: -120px;
+}
+.my-skill .tagline h1{
+    font-size: 42px;
+    margin-top: -20px;
+}
+.my-skill .tagline p{
+    font-size: 1.2rem;
+    margin-top: 14px;
+}
+.bg_blue{
+    background-color: var(--secondary-color);
+    padding: 30px 0px;
+}
+.hire-me{
+    background-color: rgb(234,239,249);
+}
+footer{
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 19px;
+    padding: 20px 0;
+}
+footer a{
+    /* text-decoration: none; */
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    body h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* end hero  */
+    </style>
+   
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- start navigation  -->
+
+    <nav class="navbar navbar-expand-lg py-lg-3 py-sm-0 py-0">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Lucky Coder <span class="logo-red">!</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Coding Arena</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex align-items-center">
+                    <!-- <i class="bi bi-person-circle log-red"></i> -->
+                    <li class="nav-item ps-2 pt-1" style="list-style: none;">
+                        <a class="nav-link log-red" href="https://leetcode.com/Lucky_Coder2002/"
+                            style="font-size: 20px;">LeetCode</a>
+                    </li>
+                    <div class="nav-social d-flex ms-5">
+                        <a href="#" download=""><i class="bi bi-github text-white "></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-white px-3"></i></a>
+                        <a href="https://www.instagram.com/__.lucky.__002/" target="_blank"><i class="bi bi-instagram text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+
+    <!-- end navigation  -->
+
+    <!-- start hero  -->
+
+
+
+    <main class="hero">
+
+
+        <div class="hero-content">
+            <h1> Jyoti Prakash <br>Mandal</h1>
+            <p>Click here to download my cv.</p>
+
+            <a href="/JYOTI PRAKASH MANDAL.pdf" download=""><button class="main-btn">Download CV</button></a>
+        </div>
+
+    </main>
+
+
+    <!-- about section start  -->
+    <!-- data-aos="fade-up" -->
+    <div class="container j-profile" data-aos="fade-up">
+        <div class="row d-flex justify-content-center">
+            <div class="col-10 col-lg-9 shadow p-3 mb-5 bg-body rounded">
+                <div class="row justify-content-around align-items-center py-lg-5 py-2 px-2">
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <img src="image/JPS PIC.jpg" alt="jyoti" class="img-fluid mb-3">
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="fs-1">Hi, I'm Lucky,<br>a Skilled Coder <br> And A Developer
+                        </h2>
+                        <p class="mt-4">I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances that happen every day. I'm persuing Master at the Institute of Technical Education and Research (ITER) in Computer Science.
+
+                        </p>
+                        <button class="main-btn"><a class="ab" href="https://en.wikipedia.org/wiki/Siksha_%27O%27_Anusandhan">See Details</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- about section  end -->
+
+
+    <!-- what can i do for u section start -->
+
+    <section class="my-skill">
+
+        <div class="container tagline">
+            <div class="row pb-5">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <h2 class="fs-1">What Can I Do For You?</h1>
+                    <p>Here is some examples of Computer language<br>All are based on my skilled area
+                        </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-3">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3" data-aos="fade-up">
+                    <img src="image/java.png" alt="java" class="img-fluid mb-4" style="height: 62px;">
+                    <p style="font-size: 1.2rem;">Java is a high-level language, which means that it is closer to human language than to machine language. This makes it easier to read and write Java code, and it also makes Java code more portable, meaning that it can be run on different types of computers.</p>
+                </div>
+                <div class="col-md-3 mt-lg-0 mt-2" data-aos="fade-up">
+                    <img src="image/c++.png" alt="java" class="img-fluid mb-4" style="height: 60px;">
+                    <p style="font-size: 1.2rem;">C++ is a powerful language that can be used to create high-performance applications. It is known for its extensive library of functions and its ability to manipulate memory directly.</p>
+                </div>
+                <div class="col-md-3 mt-lg-0 mt-2" data-aos="fade-up">
+                    <img src="image/python.png" alt="java" class="img-fluid mb-4" style="height: 60px;">
+                    <p style="font-size: 1.2rem;"> Python can be used to write a wide variety of programs. Python is commonly used to develop web applications, data science applications, machine learning applications, and scientific computing applications.</p>
+                </div>
+            </div>
+            <div class="row justify-content-evenly mt-5 pb-3">
+                <div class="col-md-3" data-aos="fade-up">
+                    <img src="image/ml.png" alt="java" class="img-fluid mb-4" style="height: 62px;">
+                    <p style="font-size: 1.2rem;">Machine learning is a branch of artificial intelligence (AI) that gives computers the ability to learn without being explicitly programmed. Machine learning algorithms are trained on data, and they can then use that data to make predictions or decisions.</p>
+                </div>
+                <div class="col-md-3 mt-lg-0 mt-2" data-aos="fade-up">
+                    <img src="image/node.png" alt="java" class="img-fluid mb-4" style="height: 60px;">
+                    <p style="font-size: 1.2rem;">Node.js is a back-end language, which means that it is used to create server-side applications. It is a runtime environment for JavaScript, which means that it executes JavaScript code outside of a web browser.</p>
+                </div> 
+                <div class="col-md-3 mt-lg-0 mt-2" data-aos="fade-up">
+                    <img src="image/react.png" alt="java" class="img-fluid mb-4" style="height: 60px;">
+                    <p style="font-size: 1.2rem;">It is developed by Facebook.It is most demand and most popular frontend framework . Its a runtime environment for JavaScript.React is flexible because it can be used to build a wide variety of user interfaces. </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- what can i do for u section end -->
+
+
+
+
+
+    <!-- end  hero  -->
+
+
+
+    <section class="my-education pt-5 mt-4">
+
+
+        <div class="bg_blue " data-aos="fade-up">
+
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-3">
+                        <h2 class="text-white mb-3 fs-1">My Education</h2>
+                            <p class="text-white">
+                               
+                              Jyoti Prakash Mandal is currently persuing Master of the Institute of Technical Education and Research (ITER), Bhubaneswar, where they earned a Master in Computer Application. They are passionate about using technology to solve real-world problems, and they are excited to start their career in the tech industry.
+                            </p>
+                    </div>
+                    <div class="col-md-9 py-5">
+                        <div class="row">
+                            <div class="col-md-4" data-aos="fade-up">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="image/iter.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ITER SOA University Bhubaneswar 2023-25</h5>
+                                        <p class="card-text">SIksha 'O' Anusandhan University ITER has been ranked as the best Engineering College in Odisha.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-4 my-lg-0" data-aos="fade-up">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="image/BB.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">B.B. Autonomous College,Chandikhol 2019-22</h5>
+                                        <p class="card-text">It is the best degree college in Jajpur which is situated nearer to a scenetic  hill station called Mahavinayak hill station. This college memory will stay forever. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="fade-up">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="image/BBM.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">RHSS, Jajpur 2017-19</h5>
+                                        <p class="card-text">Renaissance Higher secondary college is one of the good college with good faculty in Odisha . Its located in Jaraka nearer to Dharmasala.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <section class="hire-me py-5">
+        <div class="container py-3">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h1 class="mb-5" style="font-size: 42px;">Let's Get In Touch</h1>
+                    <button class="main-btn ">contact me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <span>@Copywrite Copy 2023-24- made with ❤️ by <a target="_blank" href="https://www.instagram.com/_itz_lipuun/">Somesh</a> <span>&</span> <a href="https://www.instagram.com/__.lucky.__002/" target="_blank" rel="noopener noreferrer">Lucky</a></span> .
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800,
+
+        });
+    </script>
+</body>
+
+</html>
